@@ -40,6 +40,10 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fRL-8u-x7k">
+                                <rect key="frame" x="106" y="91" width="76" height="30"/>
+                                <state key="normal" title="Dependent"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -52,6 +56,8 @@
                             <constraint firstItem="y79-1L-yGH" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="PF9-Dd-R0U"/>
                             <constraint firstItem="y79-1L-yGH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XwU-DQ-lVf"/>
                             <constraint firstItem="ORK-Gz-0mD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="pw2-pE-nvR"/>
+                            <constraint firstItem="fRL-8u-x7k" firstAttribute="leading" secondItem="y79-1L-yGH" secondAttribute="leading" id="qYG-j7-iwn"/>
+                            <constraint firstItem="fRL-8u-x7k" firstAttribute="top" secondItem="y79-1L-yGH" secondAttribute="bottom" constant="30" id="rxo-l4-fQo"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ORK-Gz-0mD" secondAttribute="bottom" id="tMK-W5-qy3"/>
                         </constraints>
                     </view>
