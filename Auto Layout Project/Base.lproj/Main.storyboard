@@ -18,36 +18,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nIK-jS-gPV">
-                                <rect key="frame" x="28" y="20" width="30" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nIK-jS-gPV">
+                                <rect key="frame" x="66" y="20" width="30" height="30"/>
                                 <state key="normal" title="TL"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="avs-02-sqj">
-                                <rect key="frame" x="247" y="24" width="30" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="avs-02-sqj">
+                                <rect key="frame" x="274" y="100" width="30" height="30"/>
                                 <state key="normal" title="TR"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fz5-fx-mey">
-                                <rect key="frame" x="268" y="509" width="30" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fz5-fx-mey">
+                                <rect key="frame" x="394" y="538" width="30" height="30"/>
                                 <state key="normal" title="BR"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ORK-Gz-0mD">
-                                <rect key="frame" x="20" y="509" width="30" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ORK-Gz-0mD">
+                                <rect key="frame" x="66" y="538" width="30" height="30"/>
                                 <state key="normal" title="BL"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="Fz5-fx-mey" secondAttribute="trailing" id="06m-vG-htZ"/>
-                            <constraint firstItem="avs-02-sqj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="11z-HE-ZsO"/>
-                            <constraint firstItem="nIK-jS-gPV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="24c-Gd-f66"/>
-                            <constraint firstItem="nIK-jS-gPV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="BTk-dU-JJd"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Fz5-fx-mey" secondAttribute="trailing" constant="-120" id="06m-vG-htZ"/>
+                            <constraint firstItem="avs-02-sqj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="80" id="11z-HE-ZsO"/>
+                            <constraint firstItem="nIK-jS-gPV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="BTk-dU-JJd"/>
                             <constraint firstItem="nIK-jS-gPV" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="DKX-hl-fmu"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Fz5-fx-mey" secondAttribute="bottom" id="IcA-r8-eNC"/>
                             <constraint firstAttribute="trailingMargin" secondItem="avs-02-sqj" secondAttribute="trailing" id="Kg3-tc-RBZ"/>
-                            <constraint firstItem="nIK-jS-gPV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="L4f-Wf-b3r"/>
-                            <constraint firstItem="ORK-Gz-0mD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="pw2-pE-nvR"/>
+                            <constraint firstItem="ORK-Gz-0mD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="pw2-pE-nvR"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ORK-Gz-0mD" secondAttribute="bottom" id="tMK-W5-qy3"/>
-                            <constraint firstItem="nIK-jS-gPV" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="uhI-p6-fFI"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
