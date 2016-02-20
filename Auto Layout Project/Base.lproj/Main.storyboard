@@ -41,7 +41,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fRL-8u-x7k">
-                                <rect key="frame" x="106" y="91" width="76" height="30"/>
+                                <rect key="frame" x="123" y="91" width="76" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="76" id="Q9i-Qs-mDT"/>
+                                    <constraint firstAttribute="height" constant="30" id="wxg-6o-rLy"/>
+                                </constraints>
                                 <state key="normal" title="Dependent"/>
                             </button>
                         </subviews>
@@ -53,10 +57,10 @@
                             <constraint firstItem="nIK-jS-gPV" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="DKX-hl-fmu"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Fz5-fx-mey" secondAttribute="bottom" id="IcA-r8-eNC"/>
                             <constraint firstAttribute="trailingMargin" secondItem="avs-02-sqj" secondAttribute="trailing" id="Kg3-tc-RBZ"/>
+                            <constraint firstItem="fRL-8u-x7k" firstAttribute="centerX" secondItem="y79-1L-yGH" secondAttribute="centerX" id="ODJ-dy-aKo"/>
                             <constraint firstItem="y79-1L-yGH" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="PF9-Dd-R0U"/>
                             <constraint firstItem="y79-1L-yGH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XwU-DQ-lVf"/>
                             <constraint firstItem="ORK-Gz-0mD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="pw2-pE-nvR"/>
-                            <constraint firstItem="fRL-8u-x7k" firstAttribute="leading" secondItem="y79-1L-yGH" secondAttribute="leading" id="qYG-j7-iwn"/>
                             <constraint firstItem="fRL-8u-x7k" firstAttribute="top" secondItem="y79-1L-yGH" secondAttribute="bottom" constant="30" id="rxo-l4-fQo"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ORK-Gz-0mD" secondAttribute="bottom" id="tMK-W5-qy3"/>
                         </constraints>
